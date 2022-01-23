@@ -1,0 +1,25 @@
+@import "src/shared/assets/styles/variables";
+
+.product {
+  padding: 20px;
+  background-color: $bgColor !important;
+  margin-bottom: 50px;
+  &__content {
+    margin-top: 30px;
+    color: #fafbfc;
+    &__name{
+      font-weight: bold;
+      font-size: 20px;
+    }
+    &__subname a {
+      text-decoration: none;
+      color: inherit;
+    }
+  }
+}
+.search {
+  margin: 50px 0px;
+  & .form-outline{
+      width: 100%;
+  }
+}

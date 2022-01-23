@@ -1,0 +1,13 @@
+@import "~bootstrap/scss/bootstrap", "./variables";
+
+
+body{
+    background-color: #ffffff;
+}
+
+.modal-title{
+    text-align: center;
+}
+.modal-actions{
+    justify-content: center!important;
+}
